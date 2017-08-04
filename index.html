@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>Greg's List Search results prototype</title>
+    <link rel="stylesheet" href="styles/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="brand" href="#">Greg's List</a>
+        <a class="nav-link" href="#">Post</a>
+        <a class="nav-link" href="#">Account</a>
+      </nav>
+    </header>
+    <main>
+        <form class="searchbar" action="index.html" method="post">
+          <h4>Seach Jobs</h4>
+          <input class="searchword" type="search" name="searchword" value="" placeholder="Search software jobs">
+          <input class="searchbutton" type="image" name="submit" src="images/magnifying-glass.png" alt="search">
+        </form>
+      <nav class="pageselect">
+        <button class="prev" type="button" name="button">&lt prev</button>
+        <span class="pagedisplay" type="button" name="button">1 to 100 of 179</span>
+        <button class="next" type="button" name="button">next &gt</button>
+      </nav>
+      <table class="searchresults">
+        <tr class="result">
+          <td><span class="date">June 22</span></td>
+          <td><a class="resultlink" href="#">Technical Project Manager</a>
+          <span class="location">Here</span></td>
+        </tr>
+        <tr class="result">
+    	    <td><span class="date">August 1</span></td>
+          <td><a class="resultlink" href="#">Frontend Developer</a>
+          <span class="location">There or maybe somewhere else</span></td>
+        </tr>
+        <tr class="result">
+          <td><span class="date">March 14</span></td>
+          <td><a class="resultlink" href="#">Fullstack-Webdeveloper(Python/PHP)</a>
+          <span class=location>Munich</span></td>
+        </tr>
+        <tr class="result">
+          <td><span class="date">May 4</span></td>
+          <td><a class="resultlink" href="#">Junior Java-Deveoper</a>
+          <span class="location">Spain</span></td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>
